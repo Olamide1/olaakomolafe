@@ -22,15 +22,12 @@ function changeColor(){
     var first = 'content';
     document.getElementById(first).style.backgroundColor =  'white';
     document.getElementById(first).style.color = 'black';
-    document.getElementById(first).style.backgroundColor = '200px';
     document.getElementById(first).style.border = '1.5 px solid black';
     document.getElementById('footer').style.backgroundColor = 'white';
     document.getElementById('footer').style.color = 'black';
-    document.getElementById('footer').style.backgroundColor = '200px';
     document.getElementById('footer').style.border = '1.5 px solid black';
     document.getElementById('header').style.backgroundColor = 'white';
     document.getElementById('header').style.color = 'black';
-    document.getElementById('header').style.backgroundColor = '200px';
     document.getElementById('header').style.border = '1.5 px solid black';
     document.getElementById('btn').innerHTML = 'Click Once to return to normal color';
 }
@@ -38,15 +35,12 @@ function changeColor(){
 function returnColor() {
     document.getElementById('content').style.backgroundColor = '#555';
     document.getElementById('content').style.color = 'whitesmoke';
-    document.getElementById('content').style.backgroundColor = '200px';
     document.getElementById('content').style.border = '1.5 px solid black';
     document.getElementById('footer').style.backgroundColor = '#555';
     document.getElementById('footer').style.color = 'whitesmoke';
-    document.getElementById('footer').style.backgroundColor = '200px';
     document.getElementById('footer').style.border = '1.5 px solid black';
      document.getElementById('header').style.backgroundColor = '#555';
      document.getElementById('header').style.color = 'whitesmoke';
-     document.getElementById('header').style.backgroundColor = '200px';
      document.getElementById('header').style.border = '1.5 px solid black';
     document.getElementById('btn').innerHTML = 'Double Click to Change Color to white!';
 }
